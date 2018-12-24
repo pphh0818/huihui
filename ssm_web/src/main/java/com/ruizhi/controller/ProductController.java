@@ -21,6 +21,7 @@ public class ProductController {
         mv.addObject("productList",productList);
         mv.setViewName("product-list");
         System.out.println("哈哈");
+        System.out.println("你好啊，哈哈");
         return mv;
     }
 }
