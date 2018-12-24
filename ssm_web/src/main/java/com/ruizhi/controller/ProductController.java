@@ -20,6 +20,7 @@ public class ProductController {
         List<Product> productList = iProductService.findAll();
         mv.addObject("productList",productList);
         mv.setViewName("product-list");
+        System.out.println("你好啊，哈哈");
         return mv;
     }
 }
